@@ -11,29 +11,26 @@
 '    | ---~   AMiGA|
 '    "-------------'
 ```
-' Fukcing hardware, fucking linux, fucking community, thanks all Folks!
-'---------------------------------------------------------------------
-'And we are go!
-
-' Use your favorite text editor to open /etc/apt/sources.list. 
-' Modify each line to add the contrib and non-free repositories. 
-' The end result should look like the example below.
-
-'like this:
-' ===============================================================
-deb http://deb.debian.org/debian/ buster main non-free contrib
-deb-src http://deb.debian.org/debian/ buster main non-free contrib
-
-deb http://security.debian.org/debian-security buster/updates main contrib non-free
-deb-src http://security.debian.org/debian-security buster/updates main contrib non-free
-' ===============================================================
-' Save and exit. Then, update Apt.
-apt update
-
-'      Install the AMD Drivers
-' Now, you can install the non-free Linux firmware from the Debian repository.
-' In addition to that, it's a good idea to install several other key 
-' Mesa packages to ensure that your system has everything that it needs.
+' Fukcing hardware, fucking linux, fucking community, thanks all Folks!<br/>
+'---------------------------------------------------------------------<br/>
+'      And we are go!<br/>
+' Use your favorite text editor to open /etc/apt/sources.list. <br/>
+' Modify each line to add the contrib and non-free repositories. <br/>
+' The end result should look like the example below.<br/>
+'like this:<br/>
+' ===============================================================<br/>
+deb http://deb.debian.org/debian/ buster main non-free contrib<br/>
+deb-src http://deb.debian.org/debian/ buster main non-free contrib<br/>
+<br/>
+deb http://security.debian.org/debian-security buster/updates main contrib non-free<br/>
+deb-src http://security.debian.org/debian-security buster/updates main contrib non-free<br/>
+' ===============================================================<br/>
+' Save and exit. Then, update Apt.<br/>
+apt update<br/>
+'      Install the AMD Drivers<br/>
+' Now, you can install the non-free Linux firmware from the Debian repository.<br/>
+' In addition to that, it's a good idea to install several other key <br/>
+' Mesa packages to ensure that your system has everything that it needs.<br/>
 apt install firmware-linux firmware-linux-nonfree libdrm-amdgpu1 xserver-xorg-video-amdgpu
 
 ' and Install Vulkan if:
