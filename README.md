@@ -1,15 +1,15 @@
 # AMD-GPU-Ubuntu-Debian-Fix-trick
 
 # How to Install Last AMD GPU driver on Linux/Unix
-'<br>
-'      .---------.<br>
-'      |.-------.|<br>
-'      ||>run#  ||<br>
-'      ||       ||<br>
-'      |"-------'|etf<br>
-'    .-^---------^-.<br>
-'    | ---~   AMiGA|<br>
-'    "-------------'<br>
+'  
+'      .---------.  
+'      |.-------.|. 
+'      ||>run#  ||. 
+'      ||       ||. 
+'      |"-------'|etf. 
+'    .-^---------^-.  
+'    | ---~   AMiGA|. 
+'    "-------------'  
 '
 ' Fukcing hardware, fucking linux, fucking community, thanks all Folks!
 '---------------------------------------------------------------------
